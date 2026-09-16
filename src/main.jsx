@@ -191,7 +191,7 @@ function AboutModal({isOpen,onClose}){
         {/* Medium Link with Official SVG Symbol */}
         <div style={{marginBottom:'16px'}}>
           <a 
-            href="https://medium.com/@your-username" 
+            href="https://medium.com/@ajayjaknale1" 
             target="_blank" 
             rel="noopener noreferrer" 
             style={{color: 'var(--accent)', textDecoration: 'none', fontWeight: 500, fontSize: '14px', display: 'inline-flex', alignItems: 'center', gap: '8px'}}
