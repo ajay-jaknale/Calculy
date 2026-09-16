@@ -33,7 +33,7 @@ function ToolNav({active,setActive}){return <div className="tool-nav-wrap"><div 
 function Header({dark,setDark,onOpenSearch,onOpenAbout}){
   return (
     <header className="header">
-      <div className="logo">Calculy<span>•</span></div>
+      <div className="logo">Calculet<span>•</span></div>
       <div className="header-actions">
         <button className="search" onClick={onOpenSearch}>
           <Search size={15}/><span>Find a tool</span><kbd>⌘ K</kbd>
@@ -183,9 +183,9 @@ function AboutModal({isOpen,onClose}){
     <div style={{position:'fixed',top:0,left:0,right:0,bottom:0,backgroundColor:'rgba(0,0,0,0.5)',display:'flex',alignItems:'center',justifyContent:'center',zIndex:1000}} onClick={onClose}>
       <div style={{background:'var(--card-bg, #fff)',width:'90%',maxWidth:'450px',borderRadius:'12px',padding:'24px',boxShadow:'0 20px 25px -5px rgba(0,0,0,0.1)',position:'relative'}} onClick={e=>e.stopPropagation()}>
         <button onClick={onClose} style={{position:'absolute',top:'16px',right:'16px',background:'transparent',border:'none',cursor:'pointer'}}><X size={18}/></button>
-        <h2 style={{marginBottom:'12px',fontSize:'20px',fontWeight:700}}>About Calculy</h2>
+        <h2 style={{marginBottom:'12px',fontSize:'20px',fontWeight:700}}>About Calculet</h2>
         <p style={{lineHeight:'1.6',opacity:0.8,marginBottom:'16px'}}>
-          Calculy is a clean, lightning-fast utility suite designed for everyday calculations and conversions.
+          Calculet is a clean, lightning-fast utility suite designed for everyday calculations and conversions.
         </p>
         
         {/* Medium Link with Official SVG Symbol */}
