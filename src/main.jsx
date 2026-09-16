@@ -185,8 +185,24 @@ function AboutModal({isOpen,onClose}){
         <button onClick={onClose} style={{position:'absolute',top:'16px',right:'16px',background:'transparent',border:'none',cursor:'pointer'}}><X size={18}/></button>
         <h2 style={{marginBottom:'12px',fontSize:'20px',fontWeight:700}}>About Calculy</h2>
         <p style={{lineHeight:'1.6',opacity:0.8,marginBottom:'16px'}}>
-          Calculy is a clean, lightning-fast utility suite designed for everyday calculations and conversions. Built with performance and privacy in mind, all standard calculations and unit conversions run securely right inside your browser.
+          Calculy is a clean, lightning-fast utility suite designed for everyday calculations and conversions.
         </p>
+        
+        {/* Medium Link with Official SVG Symbol */}
+        <div style={{marginBottom:'16px'}}>
+          <a 
+            href="https://medium.com/@your-username" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            style={{color: 'var(--accent)', textDecoration: 'none', fontWeight: 500, fontSize: '14px', display: 'inline-flex', alignItems: 'center', gap: '8px'}}
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.73-1.51 6.75-3.38 6.75-1.87 0-3.38-3.02-3.38-6.75s1.51-6.75 3.38-6.75c1.87 0 3.38 3.02 3.38 6.75zM24 12c0 3.39-.58 6.13-1.3 6.13-.72 0-1.3-2.74-1.3-6.13s.58-6.13 1.3-6.13c.72 0 1.3 2.74 1.3 6.13z"/>
+            </svg>
+            Read my articles on Medium →
+          </a>
+        </div>
+
         <div style={{fontSize:'13px',opacity:0.5,borderTop:'1px solid rgba(0,0,0,0.08)',paddingTop:'12px'}}>
           Version 1.0.0 • Evergreen & Maintenance-Free
         </div>
